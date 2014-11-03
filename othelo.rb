@@ -19,7 +19,7 @@ class Reversi
   
   def color_choice
 
-    p "Chose your color (b or w)"
+    p "Choose your color (b or w)"
     while 1
       clr = gets.chop
       case clr
@@ -161,14 +161,14 @@ class Reversi
         return false
       end
       
-      p "White you chouse number (xy)[1 to 8]"
+      p "White you choose number (xy)[1 to 8]"
     else
       if pass_check
         p "Black PASS!"
         return false
       end
 
-      p "Black you chouse number (xy)[1 to 8]"
+      p "Black you choose number (xy)[1 to 8]"
     end
 
     $pass_count = 0
@@ -185,7 +185,7 @@ class Reversi
       ny = num[1].to_i
 
       if !(nx > 0 && ny > 0 && nx < SQUARES + 1 && ny < SQUARES + 1)
-        p "Chouse number [1 to 8]"
+        p "Choose number [1 to 8]"
         redo
       end
 
