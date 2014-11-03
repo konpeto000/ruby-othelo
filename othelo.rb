@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 
- $player_color = 0
- $pass_count = 0
- $max_put = Array.new
+$player_color = 0
+$pass_count = 0
+$max_put = Array.new
 
 class Reversi
 
